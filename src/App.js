@@ -1,9 +1,12 @@
 import './App.css';
+import './fonts.css';
+import Nav from './pages/Nav';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      City View by Muharraqi Studios
+      <Nav />
     </div>
   );
 }
